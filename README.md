@@ -8,6 +8,7 @@ The goal of this project was to adapt a lightweight Small Language Model (SLM) f
 ## Model Details
 - **Base Model:** [Qwen/Qwen2.5-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct)
 - **Dataset:** [lavita/ChatDoctor-HealthCareMagic-100k](https://huggingface.co/datasets/lavita/ChatDoctor-HealthCareMagic-100k)
+- **LoRA Adapter:** [justjuu/qwen2.5-0.5b-chatdoctor-qlora-adapters](https://huggingface.co/justjuu/qwen2.5-0.5b-chatdoctor-qlora-adapters)
 - **Fine-tuning Method:** QLoRA (4-bit NF4 quantization)
 - **Training Samples:** 10,000 (Subset)
 - **Evaluation Samples:** 500
